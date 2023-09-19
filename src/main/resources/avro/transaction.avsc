@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "namespace": "com.sankidev.kafka.avro",
+  "name": "Transaction",
+  "fields": [
+   {
+      "name": "transactionId",
+      "type": "string"
+    },
+    {
+      "name": "sender",
+      "type": "string"
+    },
+    {
+      "name": "receiver",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "double"
+    }
+  ]
+}
